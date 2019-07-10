@@ -1,0 +1,24 @@
+{
+  "name": "injf",
+  "version": "0.1.0",
+  "description": "Lightweight dependency injection framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazcatluc/injf.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "dependency",
+    "injection"
+  ],
+  "author": "Catalin Lazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazcatluc/injf/issues"
+  },
+  "homepage": "https://github.com/lazcatluc/injf#readme"
+}
