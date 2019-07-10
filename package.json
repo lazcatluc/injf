@@ -4,14 +4,17 @@
   "description": "Lightweight dependency injection framework",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "build": "babel src --out-dir bin",
+    "lint": "./node_modules/.bin/eslint src"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lazcatluc/injf.git"
   },
   "keywords": [
-    "JavaScript",
     "dependency",
     "injection"
   ],
@@ -22,7 +25,17 @@
   },
   "homepage": "https://github.com/lazcatluc/injf#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3"
+    "@babel/preset-env": "^7.5.4",
+    "@babel/core": "^7.5.4",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/test/**"
+    ]
   }
 }
