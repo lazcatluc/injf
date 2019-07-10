@@ -35,4 +35,9 @@ describe('Inject should resolve', () => {
     const result = inject.resolve(inlineComplicatedFunction);
     expect(result).toEqual(10);
   });
+  
+  it('dependency name', () => {
+    inject.register('x', 2);
+    expect(inject.resolve('x')).toEqual(2);
+  })
 });
