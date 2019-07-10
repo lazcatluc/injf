@@ -25,8 +25,10 @@
   },
   "homepage": "https://github.com/lazcatluc/injf#readme",
   "devDependencies": {
-    "@babel/preset-env": "^7.5.4",
     "@babel/core": "^7.5.4",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/runtime": "^7.5.4",
     "babel-eslint": "^8.2.6",
     "eslint": "^5.3.0",
     "eslint-config-airbnb-base": "^13.0.0",
