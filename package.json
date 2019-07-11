@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/lazcatluc/injf#readme",
   "devDependencies": {
+    "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.4",
     "@babel/plugin-transform-runtime": "^7.5.0",
     "@babel/preset-env": "^7.5.4",

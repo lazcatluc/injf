@@ -59,6 +59,7 @@ typings/
 
 # Distribution folders
 dist/
+bin/
 build/
 
 # IDEA IDE
