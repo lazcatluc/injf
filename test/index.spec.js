@@ -47,11 +47,12 @@ describe('Inject should resolve', () => {
   });
   
   it('inner dependencies', async () => {
+    inject.register('sumSquare', inject.resolve(sum => sum * sum));
     inject.register('sum', inject.resolve((x, y) => x + y));
     inject.register('x', 1);
     inject.register('y', 2);
-    const result = await inject.resolve('sum');
-    expect(result).toEqual(3);
+    const result = await inject.resolve('sumSquare');
+    expect(result).toEqual(9);
   });
  
   it('async function', async () => {
