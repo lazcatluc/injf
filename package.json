@@ -1,6 +1,6 @@
 {
   "name": "injf",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Lightweight dependency injection framework",
   "main": "index.js",
   "scripts": {
