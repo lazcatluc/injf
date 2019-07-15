@@ -13,6 +13,9 @@
   "files": [
     "bin"
   ],
+  "bin": {
+    "injf": "./bin/index"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lazcatluc/injf.git"

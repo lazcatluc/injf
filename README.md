@@ -13,6 +13,16 @@ but `injf` is designed with a stateless functional-style mindset.
 $ npm install injf
 ```
 
+## Dependencies
+
+`infj` requires Babel 7 in order to run. Add these lines to your `.babelrc`:
+```
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
+```
+
 ## Examples
 
 Let's say you have a `sum` function and you want to evaluate it using
@@ -59,4 +69,4 @@ not when registering dependencies. If you called `await` inside the
 `sumSquare` registration section, you'd get an error as `sum` is not
 yet known to the container. 
 
-No circular dependencies are currently supported. 
+No circular dependencies are currently supported.
