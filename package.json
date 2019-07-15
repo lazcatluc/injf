@@ -7,7 +7,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "build": "babel src --out-dir bin",
+    "build": "babel src --out-dir .",
     "lint": "./node_modules/.bin/eslint src"
   },
   "repository": {
